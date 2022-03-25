@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="dynamic.js"></script> 
+    <head>
+      <title>Physics Helper</title>
+    </head>
+    <body class="columns">
+      <div>
+        <div class="column1">
+            <img class="webname" src="physics.jpg" alt="website name">
+            <img class="webname" src="helper.png" alt="website name">
+            <br>
+
+            <p class="description">
+              Solve  physics  problems  with one  click
+            </p><br>
+
+            <p class="normaltext">
+              Contact Us :
+            </p>
+            <form>
+              <label for="name">Name :</label> <br>
+              <input class="name" type="text" id="name"> <br><br>
+              <label for="email">Email :</label> <br>
+              <input class="email" type="text" id="email" > <br><br>
+              <label for="message">Message :</label> <br>
+              <input class="message" type="text" id="message" > <br><br>
+              <input onclick="popAlert()" type= "submit" value="Submit">
+          </form><br>
+        </div>
+
+        <div class="column2">
+          <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a class="active" href="linear.html">Linear Motion</a></li>
+            <li> <a href="area.html">Area Calculations</a></li>
+            <li> <a href="volume.html">Volume Calculations</a></li>
+            <li> <a href="cv.html">About Me</a></li>
+          </ul>
+          <br><br>
+
+          <h3 class="linearcalc" >* All the data should be in same units </h3>
+
+          <label class="linearcalc" for="v">Final Velocity, v :</label> <br>
+          <input class="linearcalc"  type="number" id="v"> <br><br>
+          <label class="linearcalc" for="u">Initial Velocity, u :</label> <br>
+          <input class="linearcalc"  type="number" id="u"> <br><br>
+          <label class="linearcalc" for="a">Acceleration, a :</label> <br>
+          <input class="linearcalc"  type="number" id="a"> <br><br>
+          <label class="linearcalc" for="t">Time, t :</label> <br>
+          <input class="linearcalc"  type="number" id="t"> <br><br>
+          <label class="linearcalc" for="s">Displacement, s :</label> <br>
+          <input class="linearcalc"  type="number" id="s"> <br><br>
+
+          <input class="linearcalc" onclick="datacalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="demo"></p>
+        </div>
+    </body>
+</html>
+    
+    

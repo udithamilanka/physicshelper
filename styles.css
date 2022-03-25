@@ -1,0 +1,122 @@
+.columns{
+  background-color: aquamarine;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.column1 {
+  float: left;
+  width: 20%;
+  background-color: rgb(43, 43, 148);
+}
+
+.column2 {
+  float: left;
+  width: 80%;
+}
+
+.webname{
+  max-width: 90%;
+  padding-top: 20px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.description{
+  font-size: 18px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+  color: goldenrod;
+}
+
+.normaltext{
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+}
+
+form{
+  font-size: 12px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: white;
+}
+
+.name{
+  width: 90%;
+}
+
+.email{
+  width: 90%;
+}
+
+.message{
+  height: 50px;
+  width: 90%;
+}
+
+ul{
+  width: 95%;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(55, 103, 194);
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.active{
+  background-color: brown;
+}
+
+li a:hover{
+  background-color: blueviolet;
+}
+
+table, th, td{
+  margin-left: 25px;
+  border-left: auto;
+  border:1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+.imagetable{
+  max-width: 480px;
+  height: auto;
+}
+
+.backimage{
+  width:100%;
+  opacity: 30%;
+}
+
+.button1{
+  padding: 25px;
+  margin: 50px;
+  font-size: 50px;
+  color: black;
+}
+
+h1{
+  padding: 20px;
+}
+
+h2{
+  padding: 25px;
+}
+
+.linearcalc{
+  margin-left: 150px;
+
+}

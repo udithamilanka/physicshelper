@@ -178,5 +178,5 @@ function elipsecalculation(){
 function parallelogramcalculation(){
   var a = document.getElementById("parallelogram1").value;
   var b = document.getElementById("parallelogram2").value;
-  document.getElementById("parallelogramarea").innerHTML = "Area of the elipse is, " + a*b + " square  units";
+  document.getElementById("parallelogramarea").innerHTML = "Area of the parallelogram is, " + a*b + " square  units";
 }

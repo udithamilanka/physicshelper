@@ -1,6 +1,6 @@
 <html>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="dynamic.js"></script> 
+    <script src="volume.js"></script> 
     <head>
       <title>Physics Helper</title>
     </head>
@@ -38,9 +38,59 @@
             <li> <a href="cv.html">About Me</a></li>
           </ul>
 
-          <h1>In Progress</h1>
+          <h1>Volume Calculations</h1>
 
+          <h2 class="linearcalc" >1) Cuboid </h2>
+          <img class="imagetable2" src="cube.jpg"><br>
+          <label class="linearcalc" for="cube1">a :</label> <br>
+          <input class="linearcalc"  type="number" id="cube1"> <br><br>
+          <label class="linearcalc" for="cube2">b :</label> <br>
+          <input class="linearcalc"  type="number" id="cube2"> <br><br>
+          <label class="linearcalc" for="cube3">c :</label> <br>
+          <input class="linearcalc"  type="number" id="cube3"> <br><br>
+          <input class="linearcalc" onclick="cubecalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="cubevolume"></p><br>
+          <!-- Done,checked -->
+          
+          <h2 class="linearcalc" >2) Sphere </h2>
+          <img class="imagetable2" src="circle.jpg"><br>
+          <label class="linearcalc" for="sphere1">r :</label> <br>
+          <input class="linearcalc"  type="number" id="sphere1"> <br><br>
+          <input class="linearcalc" onclick="spherecalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="spherevolume"></p><br>
+          <!-- Done,checked -->
 
+          <h2 class="linearcalc" >3) Cylinder </h2>
+          <img class="imagetable2" src="cylinder.jpg"><br>
+          <label class="linearcalc" for="cylinder1">r :</label> <br>
+          <input class="linearcalc"  type="number" id="cylinder1"> <br><br>
+          <label class="linearcalc" for="cylinder2">h :</label> <br>
+          <input class="linearcalc"  type="number" id="cylinder2"> <br><br>
+          <input class="linearcalc" onclick="cylindercalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="cylindervolume"></p><br>
+          <!-- Done,checked -->
+
+          <h2 class="linearcalc" >4) Pyramid </h2>
+          <img class="imagetable2" src="pyramid.jpg"><br>
+          <label class="linearcalc" for="pyramid1">a :</label> <br>
+          <input class="linearcalc"  type="number" id="pyramid1"> <br><br>
+          <label class="linearcalc" for="pyramid2">b :</label> <br>
+          <input class="linearcalc"  type="number" id="pyramid2"> <br><br>
+          <label class="linearcalc" for="pyramid3">h :</label> <br>
+          <input class="linearcalc"  type="number" id="pyramid3"> <br><br>
+          <input class="linearcalc" onclick="pyramidcalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="pyramidvolume"></p><br>
+          <!-- Done,checked -->
+
+          <h2 class="linearcalc" >5) Cone </h2>
+          <img class="imagetable2" src="cone.jpg"><br>
+          <label class="linearcalc" for="cone1">r :</label> <br>
+          <input class="linearcalc"  type="number" id="cone1"> <br><br>
+          <label class="linearcalc" for="cone2">h :</label> <br>
+          <input class="linearcalc"  type="number" id="cone2"> <br><br>
+          <input class="linearcalc" onclick="conecalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="conevolume"></p><br>
+          <br><br><br><br>
         </div>
     </body>
 </html>

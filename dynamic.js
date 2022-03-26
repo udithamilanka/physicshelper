@@ -146,4 +146,37 @@ function datacalculation(){
   }
 
 }
-    
+
+function squarecalculation(){
+  var a = document.getElementById("square").value;
+  document.getElementById("squarearea").innerHTML = "Area of the square is, " + a*a + " square  units";
+}
+
+function rectanglecalculation(){
+  var a = document.getElementById("rectangle1").value;
+  var b = document.getElementById("rectangle2").value;
+  document.getElementById("rectanglearea").innerHTML = "Area of the rectangle is, " + a*b + " square  units";
+}
+
+function trianglecalculation(){
+  var a = document.getElementById("triangle1").value;
+  var b = document.getElementById("triangle2").value;
+  document.getElementById("trianglearea").innerHTML = "Area of the triangle is, " + 0.5*a*b + " square  units";
+}
+
+function circlecalculation(){
+  var a = document.getElementById("circle").value;
+  document.getElementById("circlearea").innerHTML = "Area of the circle is, " + Math.PI*a*a + " square  units";
+}
+
+function elipsecalculation(){
+  var a = document.getElementById("elipse1").value;
+  var b = document.getElementById("elipse2").value;
+  document.getElementById("elipsearea").innerHTML = "Area of the elipse is, " + a*b + " square  units";
+}
+
+function parallelogramcalculation(){
+  var a = document.getElementById("parallelogram1").value;
+  var b = document.getElementById("parallelogram2").value;
+  document.getElementById("parallelogramarea").innerHTML = "Area of the elipse is, " + a*b + " square  units";
+}

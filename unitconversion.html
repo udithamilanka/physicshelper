@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="unitconversion.js"></script> 
+    <head>
+      <title>Physics Helper</title>
+    </head>
+    <body class="columns">
+      <div>
+        <div class="column1">
+            <img class="webname" src="physics.jpg" alt="website name">
+            <img class="webname" src="helper.png" alt="website name">
+            <br>
+
+            <p class="description">
+              Solve  physics  problems  with one  click
+            </p><br>
+
+            <p class="normaltext">
+              Contact Us :
+            </p>
+            <form>
+              <label for="name">Name :</label> <br>
+              <input class="name" type="text" id="name"> <br><br>
+              <label for="email">Email :</label> <br>
+              <input class="email" type="text" id="email" > <br><br>
+              <label for="message">Message :</label> <br>
+              <input class="message" type="text" id="message" > <br><br>
+              <input onclick="popAlert()" type= "submit" value="Submit">
+          </form><br>
+        </div>
+
+        <div class="column2">
+          <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="linear.html">Linear Motion</a></li>
+            <li> <a href="area.html">Area Calculations</a></li>
+            <li> <a href="surfacearea.html">Surface Area Calculations</a></li>
+            <li> <a href="volume.html">Volume Calculations</a></li>
+            <li> <a class="active" href="unitconversion.html">Unit Conversion</a></li>
+            <li> <a href="cv.html">About Me</a></li>
+          </ul>
+          <br>
+
+          <h1 >Unit Conversions</h1>
+
+<!--Length conversion-->
+          <h3 class="linearcalc" >Convert Lengths</h3>
+          <label class="linearcalc" for="length1">From :</label><br>
+          <select class="linearcalc" id="length1">
+            <option value="km">Kilometer</option>
+            <option value="m">Meter</option>
+            <option value="cm">Centimeter</option>
+            <option value="mm">Millimeter</option>
+            <option value="um">Micrometer</option>
+            <option value="nm">Nanometer</option>
+            <option value="mi">Mile</option>
+            <option value="ya">Yard</option>
+            <option value="ft">Foot</option>
+            <option value="in">Inch</option>
+            <option value="nmi">Nautical mile</option>
+          </select><br><br>
+
+          <label class="linearcalc" for="length2">To :</label><br>
+          <select class="linearcalc" id="length2">
+            <option value="km">Kilometer</option>
+            <option value="m">Meter</option>
+            <option value="cm">Centimeter</option>
+            <option value="mm">Millimeter</option>
+            <option value="um">Micrometer</option>
+            <option value="nm">Nanometer</option>
+            <option value="mi">Mile</option>
+            <option value="ya">Yard</option>
+            <option value="ft">Foot</option>
+            <option value="in">Inch</option>
+            <option value="nmi">Nautical mile</option>
+          </select>
+          <br><br>
+          
+          <label class="linearcalc" for="lengthvalue">Enter Value :</label> <br>
+          <input class="linearcalc"  type="number" id="lengthvalue"> <br><br>
+          <input class="linearcalc" onclick="lengthconvert()" type= "submit" value="Convert">
+          <p class="linearcalc" id="lengthconversion"></p><br><br>
+
+<!--Area conversion-->
+          <h3 class="linearcalc" >Convert Areas</h3>
+          <label class="linearcalc" for="area1">From :</label><br>
+          <select class="linearcalc" id="area1">
+            <option value="sqkm">Square kilometer</option>
+            <option value="sqm">Square meter</option>
+            <option value="sqmi">Square mile</option>
+            <option value="sqyard">Square yard</option>
+            <option value="sqfoot">Square foot</option>
+            <option value="sqinch">Square inch</option>
+            <option value="hectare">Hactare</option>
+            <option value="acre">Acre</option>
+          </select><br><br>
+
+          <label class="linearcalc" for="area2">To :</label><br>
+          <select class="linearcalc" id="area2">
+            <option value="sqkm">Square kilometer</option>
+            <option value="sqm">Square meter</option>
+            <option value="sqmi">Square mile</option>
+            <option value="sqyard">Square yard</option>
+            <option value="sqfoot">Square foot</option>
+            <option value="sqinch">Square inch</option>
+            <option value="hectare">Hactare</option>
+            <option value="acre">Acre</option>
+          </select>
+          
+          <br><br>
+          
+          <label class="linearcalc" for="areavalue">Enter Value :</label> <br>
+          <input class="linearcalc"  type="number" id="areavalue"> <br><br>
+          <input class="linearcalc" onclick="areaconvert()" type= "submit" value="Convert">
+          <p class="linearcalc" id="areaconversion"></p><br><br>
+
+<!--Volume conversion-->
+          <h3 class="linearcalc" >Convert Volume</h3>
+          <label class="linearcalc" for="volume1">From :</label><br>
+          <select class="linearcalc" id="volume1">
+            <option value="lg">US liquid gallon</option>
+            <option value="lq">US liquid quart</option>
+            <option value="lp">US liquid pint</option>
+            <option value="lc">US legal cup</option>
+            <option value="ufo">US fluid ounce</option>
+            <option value="utb">US tablespoon</option>
+            <option value="ute">US  teaspoon</option>
+            <option value="cm">Cubic meter</option>
+            <option value="l">Litre</option>
+            <option value="ml">Millilitre</option>
+            <option value="g">Imperial gallon</option>
+            <option value="q">Imperial quart</option>
+            <option value="p">Imperial pint</option>
+            <option value="c">Imperial cup</option>
+            <option value="fo">Fluid ounce</option>
+            <option value="tb">Imperial tablespoon</option>
+            <option value="te">Imperial teaspoon</option>
+            <option value="cf">Cubic foot</option>
+            <option value="ci">Cubic inch</option>
+          </select><br><br>
+
+          <label class="linearcalc" for="volume2">To :</label><br>
+          <select class="linearcalc" id="volume2">
+            <option value="lg">US liquid gallon</option>
+            <option value="lq">US liquid quart</option>
+            <option value="lp">US liquid pint</option>
+            <option value="lc">US legal cup</option>
+            <option value="ufo">US fluid ounce</option>
+            <option value="utb">US tablespoon</option>
+            <option value="ute">US  teaspoon</option>
+            <option value="cm">Cubic meter</option>
+            <option value="l">Litre</option>
+            <option value="ml">Millilitre</option>
+            <option value="g">Imperial gallon</option>
+            <option value="q">Imperial quart</option>
+            <option value="p">Imperial pint</option>
+            <option value="c">Imperial cup</option>
+            <option value="fo">Fluid ounce</option>
+            <option value="tb">Imperial tablespoon</option>
+            <option value="te">Imperial teaspoon</option>
+            <option value="cf">Cubic foot</option>
+            <option value="ci">Cubic inch</option>
+          </select>
+      
+          <br><br>
+          
+          <label class="linearcalc" for="volumevalue">Enter Value :</label> <br>
+          <input class="linearcalc"  type="number" id="volumevalue"> <br><br>
+          <input class="linearcalc" onclick="volumeconvert()" type= "submit" value="Convert">
+          <p class="linearcalc" id="volumeconversion"></p><br><br>
+
+<!--Mass conversion-->
+          <h3 class="linearcalc" >Convert Masses</h3>
+          <label class="linearcalc" for="mass1">From :</label><br>
+          <select class="linearcalc" id="mass1">
+            <option value="kg">Kilogram</option>
+            <option value="t">Tonne</option>
+            <option value="g">Gram</option>
+            <option value="mg">Milligram</option>
+            <option value="ug">Microgram</option>
+            <option value="it">Imperial ton</option>
+            <option value="ut">US ton</option>
+            <option value="s">Stone</option>
+            <option value="p">Pound</option>
+            <option value="o">Ounce</option>
+          </select><br><br>
+
+          <label class="linearcalc" for="mass2">To :</label><br>
+          <select class="linearcalc" id="mass2">
+            <option value="kg">Kilogram</option>
+            <option value="t">Tonne</option>
+            <option value="g">Gram</option>
+            <option value="mg">Milligram</option>
+            <option value="ug">Microgram</option>
+            <option value="it">Imperial ton</option>
+            <option value="ut">US ton</option>
+            <option value="s">Stone</option>
+            <option value="p">Pound</option>
+            <option value="o">Ounce</option>
+          </select>
+          <br><br>
+
+          <label class="linearcalc" for="massvalue">Enter Value :</label> <br>
+          <input class="linearcalc"  type="number" id="massvalue"> <br><br>
+          <input class="linearcalc" onclick="massconvert()" type= "submit" value="Convert">
+          <p class="linearcalc" id="massconversion"></p><br><br>
+
+
+<!--Speed conversion-->
+          <h3 class="linearcalc" >Convert Speeds</h3>
+          <label class="linearcalc" for="speed1">From :</label><br>
+          <select class="linearcalc" id="speed1">
+            <option value="mi">Miles per hour</option>
+            <option value="f">Foot per second</option>
+            <option value="m">Meters per second</option>
+            <option value="km">Kilometers per hour</option>
+            <option value="k">Knots</option>
+          </select><br><br>
+
+          <label class="linearcalc" for="speed2">To :</label><br>
+          <select class="linearcalc" id="speed2">
+            <option value="mi">Miles per hour</option>
+            <option value="f">Foot per second</option>
+            <option value="m">Meters per second</option>
+            <option value="km">Kilometers per hour</option>
+            <option value="k">Knots</option>
+          </select>
+          <br><br>
+
+          <label class="linearcalc" for="speedvalue">Enter Value :</label> <br>
+          <input class="linearcalc"  type="number" id="speedvalue"> <br><br>
+          <input class="linearcalc" onclick="speedconvert()" type= "submit" value="Convert">
+          <p class="linearcalc" id="speedconversion"></p><br><br>
+
+
+<!--Speed conversion-->
+          <h3 class="linearcalc" >Convert Temperaturess</h3>
+          <label class="linearcalc" for="temp1">From :</label><br>
+          <select class="linearcalc" id="temp1">
+            <option value="c">Celcius</option>
+            <option value="f">Fahrenheit</option>
+            <option value="k">Kelvin</option>
+          </select><br><br>
+
+          <label class="linearcalc" for="temp2">To :</label><br>
+          <select class="linearcalc" id="temp2">
+            <option value="c">Celcius</option>
+            <option value="f">Fahrenheit</option>
+            <option value="k">Kelvin</option>
+          </select>
+          <br><br>
+
+          <label class="linearcalc" for="tempvalue">Enter Value :</label> <br>
+          <input class="linearcalc"  type="number" id="tempvalue"> <br><br>
+          <input class="linearcalc" onclick="tempconvert()" type= "submit" value="Convert">
+          <p class="linearcalc" id="tempconversion"></p><br><br><br><br><br>
+
+
+        </div>
+    </body>
+</html>
+    
+    

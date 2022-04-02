@@ -26,27 +26,36 @@
               <label for="message">Message :</label> <br>
               <input class="message" type="text" id="message" > <br><br>
               <input onclick="popAlert()" type= "submit" value="Submit"> 
-          </form>
+          </form><br><br><br>
+
+          <a class="scrollitems" href="#lineareq">Linear Motion Equations</a><br>
+          <a class="scrollitems" href="#areacalc">Area Calculations</a><br>
+          <a class="scrollitems" href="#surfareacalc">Surface Area Calculations</a><br>
+          <a class="scrollitems" href="#volumucalc">Volume Calculations</a><br><br><br>
+
         </div>
 
         <div class="column2">
           <ul>
-            <li> <a class="active" href="index.html">Home</a></li>
+            <li> <a class="active" href="index.html" id="home">Home</a></li>
             <li> <a href="linear.html">Linear Motion</a></li>
             <li> <a href="area.html">Area Calculations</a></li>
             <li> <a href="surfacearea.html">Surface Area Calculations</a></li>
             <li> <a href="volume.html">Volume Calculations</a></li>
+            <li> <a href="unitconversion.html">Unit Conversion</a></li>
             <li> <a href="cv.html">About me</a></li>
           </ul>
+          <a class="scrollup" href="#home"><img class="uparrow" src="up.png" ></a><br>
+
           <br>
-          <h1> Linear Motion Equations</h1>
+          <h1 id="lineareq"> Linear Motion Equations</h1>
           <br>
           <h2 class="hoverme" id="pid1"> v = u + at</h2>
           <h2 class="hoverme" id="pid2"> v² = u² + 2as</h2>
           <h2 class="hoverme" id="pid3"> s = ut + ½at²</h2>
           <br><br>
 
-          <h1>Area Calculations</h1>
+          <h1 id="areacalc">Area Calculations</h1>
           <table  width="70%" border="0" cellspacing="0" cellpadding="0">
             <tr>
                 <th>Shape</th>
@@ -85,7 +94,43 @@
             </tr>
           <table>  <br><br>
 
-            <h1>Volume Calculations</h1>
+
+
+            <h1 id="surfareacalc">Surface Area Calculations</h1>
+            <table  width="70%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                  <th>Shape</th>
+                  <th>Image</th>
+                  <th>Area</th>
+              </tr>
+              <tr>
+                  <td>Cuboid</td>
+                  <td><img class="imagetable" src="cube.jpg"></td>
+                  <td>2( a × b + a × c + b × c) </td>
+              </tr>
+              <tr>
+                  <td>Sphere</td>
+                  <td><img class="imagetable" src="circle.jpg"></td>
+                  <td>4 × π × r<sup>2</sup></td>
+              </tr>
+              <tr>
+                <td>Cylinder</td>
+                <td><img class="imagetable" src="cylinder.jpg"></td>
+                <td>(π × r<sup>2</sup> × 2) + 2 × π × r × h</td>
+              </tr>
+              <tr>
+                <td>Pyramid</td>
+                <td><img class="imagetable" src="pyramid.jpg"></td>
+                <td>ab + a × &radic;(b<sup>2</sup>/4 + h<sup>2</sup>) + b × &radic;(a<sup>2</sup>/4 + h<sup>2</sup>)</td>
+              </tr>
+              <tr>
+                <td>Cone</td>
+                <td><img class="imagetable" src="cone.jpg"></td>
+                <td>π × r [r +  &radic;(h<sup>2</sup> + r<sup>2</sup>)]</td>
+              </tr>
+            <table> <br><br>
+
+            <h1 id="volumucalc">Volume Calculations</h1>
             <table  width="70%" border="0" cellspacing="0" cellpadding="0">
               <tr>
                   <th>Shape</th>
@@ -118,7 +163,6 @@
                 <td>1/3 × π × r<sup>2</sup> × h</td>
               </tr>
             <table>
-          
 
 
         </div>

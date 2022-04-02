@@ -172,7 +172,7 @@ function circlecalculation(){
 function elipsecalculation(){
   var a = document.getElementById("elipse1").value;
   var b = document.getElementById("elipse2").value;
-  document.getElementById("elipsearea").innerHTML = "Area of the elipse is, " + a*b + " square  units";
+  document.getElementById("elipsearea").innerHTML = "Area of the elipse is, " + Math.PI*a*b + " square  units";
 }
 
 function parallelogramcalculation(){

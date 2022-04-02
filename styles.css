@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .columns{
   background-color: aquamarine;
   padding-left: 20px;
@@ -125,4 +129,21 @@ h2{
   margin-left: 150px;
   max-width: 480px;
   height: auto;
+}
+
+.scrollitems{
+  color: red;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+.scrollup{
+  right: 30px;
+  bottom: 30px;
+  position: fixed;
+}
+
+.uparrow{
+  width: 35px;
+  height: 35px;
 }

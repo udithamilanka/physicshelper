@@ -27,7 +27,16 @@
               <label for="message">Message :</label> <br>
               <input class="message" type="text" id="message" > <br><br>
               <input onclick="popAlert()" type= "submit" value="Submit">
-          </form><br>
+          </form><br><br><br>
+
+          <a class="scrollitems" href="#length">Onvert lengths</a><br><br>
+          <a class="scrollitems" href="#area">Convert areas</a><br><br>
+          <a class="scrollitems" href="#volume">Convert volumes</a><br><br>
+          <a class="scrollitems" href="#mass">Convert masses</a><br><br>
+          <a class="scrollitems" href="#speed">Convert speeds</a><br><br>
+          <a class="scrollitems" href="#temp">Convert temperatures</a><br><br><br><br>
+
+
         </div>
 
         <div class="column2">
@@ -37,15 +46,15 @@
             <li> <a href="area.html">Area Calculations</a></li>
             <li> <a href="surfacearea.html">Surface Area Calculations</a></li>
             <li> <a href="volume.html">Volume Calculations</a></li>
-            <li> <a class="active" href="unitconversion.html">Unit Conversion</a></li>
+            <li> <a class="active" href="unitconversion.html" id="home">Unit Conversion</a></li>
             <li> <a href="cv.html">About Me</a></li>
           </ul>
-          <br>
+          <a class="scrollup" href="#home"><img class="uparrow" src="up.png" ></a><br>
 
           <h1 >Unit Conversions</h1>
 
 <!--Length conversion-->
-          <h3 class="linearcalc" >Convert Lengths</h3>
+          <h3 class="linearcalc" id="length">Convert Lengths</h3>
           <label class="linearcalc" for="length1">From :</label><br>
           <select class="linearcalc" id="length1">
             <option value="km">Kilometer</option>
@@ -83,7 +92,7 @@
           <p class="linearcalc" id="lengthconversion"></p><br><br>
 
 <!--Area conversion-->
-          <h3 class="linearcalc" >Convert Areas</h3>
+          <h3 class="linearcalc" id="area">Convert Areas</h3>
           <label class="linearcalc" for="area1">From :</label><br>
           <select class="linearcalc" id="area1">
             <option value="sqkm">Square kilometer</option>
@@ -116,7 +125,7 @@
           <p class="linearcalc" id="areaconversion"></p><br><br>
 
 <!--Volume conversion-->
-          <h3 class="linearcalc" >Convert Volume</h3>
+          <h3 class="linearcalc" id="volume">Convert Volume</h3>
           <label class="linearcalc" for="volume1">From :</label><br>
           <select class="linearcalc" id="volume1">
             <option value="lg">US liquid gallon</option>
@@ -171,7 +180,7 @@
           <p class="linearcalc" id="volumeconversion"></p><br><br>
 
 <!--Mass conversion-->
-          <h3 class="linearcalc" >Convert Masses</h3>
+          <h3 class="linearcalc" id="mass">Convert Masses</h3>
           <label class="linearcalc" for="mass1">From :</label><br>
           <select class="linearcalc" id="mass1">
             <option value="kg">Kilogram</option>
@@ -208,7 +217,7 @@
 
 
 <!--Speed conversion-->
-          <h3 class="linearcalc" >Convert Speeds</h3>
+          <h3 class="linearcalc" id="speed">Convert Speeds</h3>
           <label class="linearcalc" for="speed1">From :</label><br>
           <select class="linearcalc" id="speed1">
             <option value="mi">Miles per hour</option>
@@ -235,7 +244,7 @@
 
 
 <!--Speed conversion-->
-          <h3 class="linearcalc" >Convert Temperaturess</h3>
+          <h3 class="linearcalc" id="temp">Convert Temperaturess</h3>
           <label class="linearcalc" for="temp1">From :</label><br>
           <select class="linearcalc" id="temp1">
             <option value="c">Celcius</option>
